@@ -1,0 +1,67 @@
+body {
+    background-image: url("../images/fondo.png");
+    background-repeat: repeat;
+    height: 100%;
+}
+.container-custom {
+    width: 100vh;
+    height: 50vh;
+}
+.font-custom {
+    font-family: 'Anonymous Pro', monospace;
+}
+.txt-custom {
+    color: aliceblue;
+}
+.line {
+    width: 16em;
+    height: 5.5rem;
+    border-right: 0.1rem solid rgba(255, 255, 255, 0.75);
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+    font-family: 'VT323', monospace;
+    font-size: 5rem;
+    color:#FFA400;
+}
+/*Animation*/
+.anim-typewriter {
+    animation: typewriter 4s steps(19) 1s 1 normal both,
+    blinkTextCursor 500ms steps(19) infinite normal;
+}
+@keyframes typewriter {
+    from {
+          width: 0;
+    }
+    to {
+          width: 7.5em;
+    }
+}
+@keyframes blinkTextCursor {
+    from {
+          border-right-color: rgba(255, 255, 255, 0.75);
+    }
+    to {
+          border-right-color: transparent;
+    }
+}
+
+.span-custom {
+    color:#FFA400;
+}
+.ul-custom {
+    list-style-type: none;
+    color: #FFA400;
+}
+.progress-custom {
+    width: 20rem;
+    color: aliceblue;
+}
+.card-custom{
+    background-color: rgba(162, 240, 215,0.6);
+    color: #1E344B;
+}
+.aboutme-a-custom {
+    text-decoration: underline;
+    color: #1E344B;
+}
